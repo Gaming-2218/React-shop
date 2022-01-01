@@ -1,11 +1,12 @@
-import React from 'react'
-
-import Navigation from '../components/Navigation'
+import React from 'react';
+import ProductList from '@containers/ProductList';
 
 const Home = () => {
-  return (
-    <Navigation />
-  )
+	return (
+		<>
+			<ProductList />
+		</>
+	);
 }
 
-export default Home
+export default Home;
