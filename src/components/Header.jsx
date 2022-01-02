@@ -49,7 +49,7 @@ const Header = () => {
           </li>
           <li
             className="navbar-shopping-cart"
-            onClick={() => setToggleOrders(!toggleOrders)}
+            onClick={ () => setToggleOrders(!toggleOrders) }
           >
             <img src={shoppingCart} alt="shopping cart" />
             {state.cart.length > 0 ? <div>${state.cart.length}</div> : null}
